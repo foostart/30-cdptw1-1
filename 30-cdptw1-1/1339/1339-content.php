@@ -80,8 +80,8 @@
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="navbar-2" href="#"><i class="fa fa-heart-o"></i></a></li>
-                        <li><a class="navbar-2" href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a class="navbar-3" href="#"><i class="fa fa-heart-o"></i></a></li>
+                        <li><a class="navbar-3" href="#"><i class="fa fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
             </div>

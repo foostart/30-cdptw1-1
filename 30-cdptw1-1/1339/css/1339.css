@@ -93,12 +93,15 @@
 }
 .type-1339 .container .ic-bar {
   float: right;
+  padding: 20px;
 }
 .type-1339 .container .languages {
   float: right;
+  padding-bottom: 7px;
 }
 .type-1339 .container .input {
   float: right;
+  padding: 20px;
 }
 .type-1339 .container .navbar-default .navbar-collapse {
   background-color: #3a3d44;
@@ -106,9 +109,19 @@
 .type-1339 .container .navbar-2 {
   color: white;
 }
+.type-1339 .container .navbar-3 {
+  color: white;
+  border-left: #fff solid 1px;
+}
 .type-1339 .container .navbar-default .navbar-nav>li>a:focus,
 .type-1339 .container .navbar-default .navbar-nav>li>a:hover {
   color: #b3b3b3;
+}
+.type-1339 .container .border1 {
+  border-left: #3a3d44 solid 1px;
+  border-top: #3a3d44 solid 1px;
+  border-right: #3a3d44 solid 1px;
+  border-bottom: #3a3d44 solid 1px;
 }
 .type-1339 .container .new {
   background: #eac66a;

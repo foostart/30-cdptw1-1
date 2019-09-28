@@ -87,9 +87,9 @@
 .type-1339 .container .navbar-1 {
   color: black;
 }
-.type-1339 .container .navbar-1: hover {
+.type-1339 .container .navbar-1:hover {
+  color: #b3b3b3;
   text-decoration: none;
-  color: #444444;
 }
 .type-1339 .container .ic-bar {
   float: right;
@@ -106,11 +106,9 @@
 .type-1339 .container .navbar-2 {
   color: white;
 }
-.type-1339 .container .navbar-2: hover {
-  color: blue;
-}
-.type-1339 .container .navbar-default .navbar-nav>li>a :hover {
-  color: blue;
+.type-1339 .container .navbar-default .navbar-nav>li>a:focus,
+.type-1339 .container .navbar-default .navbar-nav>li>a:hover {
+  color: #b3b3b3;
 }
 .type-1339 .container .new {
   background: #eac66a;

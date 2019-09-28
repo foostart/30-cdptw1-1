@@ -34,7 +34,7 @@
                     <div class="row">
                         <div class="r-sc">
                         <div class="ic-bar">
-                            <i class="fa fa-bars"></i>
+                            <a href="#"><i class="fa fa-bars"></i></a>
                         </div>
                         <select class="languages">
                             <option>English</option>

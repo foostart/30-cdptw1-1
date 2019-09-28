@@ -30,9 +30,6 @@
         <link href="<?php echo $url_path ?>/css/owl.carousel.min.css" rel="stylesheet" >
 
 
-        <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/owl.carousel.js"></script>
         <!-- end owl -->
 
     </head>

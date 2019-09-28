@@ -24,11 +24,11 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="r-first">
-                        <a href="#">Login |</a>
-                        <a href="#">Register |</a>
-                        <a href="#">Wishlist |</a>
-                        <a href="#">Compare |</a>
-                        <a href="#">Contact </a>
+                        <a class="navbar-1" href="#">Login |</a>
+                        <a class="navbar-1" href="#">Register |</a>
+                        <a class="navbar-1" href="#">Wishlist |</a>
+                        <a class="navbar-1" href="#">Compare |</a>
+                        <a class="navbar-1" href="#">Contact </a>
                     </div>
                     </div>
                     <div class="row">
@@ -64,24 +64,24 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class=""><a href="#">Home</a></li>
+                        <li class=""><a class="navbar-2" href="#">Home</a></li>
                         
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Online Store</a>
+                            <a class="navbar-2" data-toggle="dropdown" href="#">Online Store</a>
                             <div class="new">
                                 <span>NEW</span>
                             </div>
                         </li>
-                        <li><a class="navbar-1" href="#">Template</a></li>
-                        <li><a class="navbar-1" href="#">Pages</a></li>
-                        <li><a class="navbar-1" href="#">Extensions</a></li>
-                        <li><a class="navbar-1" href="#">Languages</a></li>
-                        <li><a class="navbar-1" href="#">Styles</a></li>
+                        <li><a class="navbar-2" href="#">Template</a></li>
+                        <li><a class="navbar-2" href="#">Pages</a></li>
+                        <li><a class="navbar-2" href="#">Extensions</a></li>
+                        <li><a class="navbar-2" href="#">Languages</a></li>
+                        <li><a class="navbar-2" href="#">Styles</a></li>
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a class="navbar-2" href="#"><i class="fa fa-heart-o"></i></a></li>
+                        <li><a class="navbar-2" href="#"><i class="fa fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
             </div>

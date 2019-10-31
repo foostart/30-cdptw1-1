@@ -40,7 +40,12 @@
   height: 520px;
   padding: 6px 12px;
   font-size: 14px;
-  text-aline: center;
+  text-align: center;
+}
+.type-1335 .container form .submit {
+  background-color: orange;
+  text-align: center;
+  padding: 10px 130px;
 }
 .type-1335 .container form .content {
   padding-top: 10px;

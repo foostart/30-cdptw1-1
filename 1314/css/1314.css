@@ -23,30 +23,35 @@
 .type-1314 .text-fi .right h6 {
   color: #94d64f;
 }
+.type-1314 .text-fi .right PhoneEmail {
+  color: #94d64f;
+}
 .type-1314 .vien {
   width: 100%;
 }
 .type-1314 .full {
   padding: 40px;
   border: 1px groove blue;
-  background: #CCFFFF;
+  background: #effcef;
   border-radius: 15px;
 }
 .type-1314 .v-full {
   text-align: center;
-  background: #CCFFFF;
+  background: #effcef;
   padding-bottom: 30px;
 }
 .type-1314 .v-full .nut {
-  background-color: #94d64f;
+  border-top: 2px solid #fff;
+  background-color: #9fe654;
   height: 40px;
   border-radius: 5px;
   border: 1px;
   color: #FFF;
 }
 .type-1314 .v-full .nut:hover {
-  background: blue;
+  background: #8bc74c;
   transition: 1s;
+  color: #e6e5e5;
 }
 .type-1314 .clear {
   clear: both;
@@ -55,5 +60,117 @@
 @media only screen and (max-width: 480px) and (min-width: 320px) {
   .type-1314 .text-fi h5 {
     witdh: 3px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .type-1314 #cbox8 {
+    margin: -101px;
+  }
+  .type-1314 .dayofweek2 {
+    margin-left: 37px;
+  }
+}
+.type-1314 .borderTopSolid {
+  border-top: 2px solid #99ca81;
+}
+.type-1314 .dayofweek {
+  color: #94d64f;
+}
+.type-1314 .dayofweek2 {
+  color: #94d64f;
+}
+@media only screen and (max-width: 500px) {
+  .type-1314 #cbox2 {
+    margin: -65px;
+  }
+  .type-1314 #cbox3 {
+    margin: -65px;
+  }
+  .type-1314 #cbox4 {
+    margin: -65px;
+  }
+  .type-1314 #cbox5 {
+    margin: -65px;
+  }
+  .type-1314 #cbox6 {
+    margin: -65px;
+  }
+  .type-1314 #cbox7 {
+    margin: -95px;
+  }
+  .type-1314 #cbox8 {
+    margin: -65px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+  .type-1314 #cbox2 {
+    margin: -80px;
+  }
+  .type-1314 #cbox3 {
+    margin: -80px;
+  }
+  .type-1314 #cbox4 {
+    margin: -80px;
+  }
+  .type-1314 #cbox5 {
+    margin: -80px;
+  }
+  .type-1314 #cbox6 {
+    margin: -80px;
+  }
+  .type-1314 #cbox7 {
+    margin: -110px;
+  }
+  .type-1314 #cbox8 {
+    margin: -80px;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+  .type-1314 #cbox2 {
+    margin: -130px;
+  }
+  .type-1314 #cbox3 {
+    margin: -130px;
+  }
+  .type-1314 #cbox4 {
+    margin: -130px;
+  }
+  .type-1314 #cbox5 {
+    margin: -130px;
+  }
+  .type-1314 #cbox6 {
+    margin: -130px;
+  }
+  .type-1314 #cbox7 {
+    margin: -161px;
+  }
+  .type-1314 #cbox8 {
+    margin: -130px;
+  }
+}
+@media only screen and (min-width: 1001px) {
+  .type-1314 #cbox2 {
+    margin: -208px;
+  }
+  .type-1314 #cbox3 {
+    margin: -208px;
+  }
+  .type-1314 #cbox4 {
+    margin: -208px;
+  }
+  .type-1314 #cbox5 {
+    margin: -208px;
+  }
+  .type-1314 #cbox6 {
+    margin: -208px;
+  }
+  .type-1314 #cbox7 {
+    margin: -251px;
+  }
+  .type-1314 #cbox8 {
+    margin: -208px;
+  }
+  .type-1314 .dayofweek2 {
+    margin-left: 41px;
   }
 }

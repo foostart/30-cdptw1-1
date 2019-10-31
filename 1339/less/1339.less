@@ -1,5 +1,5 @@
 
-.type-1307{
+.type-1339{
     @font-12:12px;
     @color:#e8e8e8;
     .logo{
@@ -26,7 +26,7 @@
         text-align: center;
         margin-top: 35px;
         img{
-            width: 40%;
+            width: 60%;
         }
     }
     .logoright{
@@ -92,16 +92,16 @@
     }
     .navbar-default .navbar-1:focus, .navbar-default .navbar-1:hover{
         color: #e4dcdc;
-        border-top: 2px solid #000;
+        border-top: 2px solid #fff;
     }
     .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
         color: #e4dcdc;
-        border-top: 2px solid #000;
+        border-top: 2px solid #fff;
     }
     .nav>li>a:focus, .nav>li>a:hover {
         text-decoration: none;
-        background-color: #ff6766;
-        border-top: 2px solid #000;
+        background-color: #3a3d44;
+        border-top: 2px solid #fff;
     }
     .navbar-default .navbar-brand{
         color: #fff;
@@ -117,7 +117,19 @@
         padding-bottom: 42px;
     }
     .navbar-right{
-        background-color:#ff6766;
+    	border-left: 2px solid #fff;
+        background-color:#3a3d44;
+    }
+    .navbar-4{
+    	border-left: 2px solid #fff;
+    }
+    .navbar-5{
+    	color: black;
+    	float: right;
+    }
+    a:focus, a: hover{
+    	text-decoration: none;
+    	color: #949494;
     }
     /*-------------Quaity----------------------*/
 
@@ -307,8 +319,14 @@
     }
 
     .row2{
-        background: #ff6766;
+        background: #3a3d44;
         color: black;
+    }
+    .languages{
+    	float: right;
+    }
+    .search{
+    	float: right;
     }
 
     .myNavbar{
@@ -338,6 +356,7 @@
     @media only screen and (max-width: 767px){
         label{
             display: block;
+            color: #fff;
             cursor: pointer;
         }
         .navbar-2{
@@ -347,6 +366,11 @@
             float: right;
             padding-bottom: 330px;
             position: relative;
+            border-left: 0 solid #3a3d44;
+        }
+        .navbar-4{
+        	border-left: 0 solid #3a3d44;
+        	padding-left: 90px;
         }
         .myNavbar{
             text-align: center;

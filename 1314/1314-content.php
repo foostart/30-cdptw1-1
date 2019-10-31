@@ -9,8 +9,8 @@
 ?>
 <div class="type-1314">
             <div class="container" >
-
             	<div class="row">
+                  <form action="#" method="post">
             		<div class="full">
             		 <div class="col-md-6 col-sm-6 col-xs-6">
             		 	<div class="text-fi">
@@ -33,131 +33,67 @@
                      	<div class="text-fi">
             		 		<h5>what is the best way to reach you?</h5>
             		 	</div>
-            		 	<div class="text-fi">
-            		 		<div class="right">
-            		 			<div class="row">
-            		 				<div class="col-md-1 col-sm-1 col-xs-1">
-            		 					<input type="radio" value="" checked="checked" />
+            		 	
+            		 		<div class="right" id="toggle">
+                                          <div class="PhoneEmail" style="color: #94d64f;">
+            		 			
 
-            		 				</div>
-            		 				<div class="col-md-2 col-sm-2 col-xs-2">
-            		 					<h6> Phone</h6>
+                                           <input class="checkradio" type="radio" value="contact" id="checkradio1" name="ckeckrdo">
+                                          <label class="123" for="checkradio1">Phone</label><br>
 
-            		 				</div>
-            		 				<div class="col-md-9 col-sm-9 col-xs-9">
+                                         <input class="checkradio" type="radio" value="contact" id="checkradio" name="ckeckrdo">
+                                          <label class="123" for="checkradio">Email</label>
 
-
-            		 				</div>
-            		 			</div>
-            		 			<div class="row">
-            		 				<div class="col-md-1 col-sm-1 col-xs-1">
-            		 					<input type="radio" value=""/>
-
-            		 				</div>
-            		 				<div class="col-md-2 col-sm-2 col-xs-2">
-            		 					<h6> Email</h6>
-
-            		 				</div>
-            		 				<div class="col-md-9 col-sm-9 col-xs-9">
-
-
-            		 				</div>
-            		 			</div>
 
 
 							</div>
-
-            		 	</div>
+</div>
+            		 	
             		 	<div class="text-fi">
             		 		<h5>Day of the week you are available for appointment :</h5>
 
             		 	</div>
+
             		 	<div class="text-fi">
             		 		<div class="right">
             		 			<div class="row" >
-            		 				<div class="col-md-1 col-sm-1 col-xs-1">
-            		 					<input type="checkbox" value=""/>
-
-            		 				</div>
+            		 				
 
 
 
-            		 				<div class="col-md-2 col-sm-2 col-xs-2">
-            		 					<h6> Monday</h6>
-
-            		 				</div>
-            		 				<div class="col-md-9 col-sm-9 col-xs-9">
-
-
-            		 				</div>
+                                                      <input type="checkbox" id="cbox2">
+                                                      <label class="dayofweek" for="cbox2">Monday</label>
+                                                      
+            		 				
+            		 				
             		 			</div>
             		 			<div class="row" >
-            		 				<div class="col-md-1 col-sm-1 col-xs-1">
-            		 					<input type="checkbox" value=""/>
+            		 				
+            		 					<input type="checkbox" id="cbox3">
+                                                      <label class="dayofweek" for="cbox3">Tuesday</label>
 
-            		 				</div>
-
-
-
-            		 				<div class="col-md-2 col-sm-2 col-xs-2">
-            		 					<h6> Tuesday</h6>
-
-            		 				</div>
-            		 				<div class="col-md-9 col-sm-9 col-xs-9">
-
-
-            		 				</div>
+            		 				
             		 			</div>
             		 			<div class="row" >
-            		 				<div class="col-md-1 col-sm-1 col-xs-1">
-            		 					<input type="checkbox" value=""  />
+            		 				
+            		 					<input type="checkbox" id="cbox4">
+                                                      <label class="dayofweek" for="cbox4">Webnesday</label>
 
-            		 				</div>
-
-
-
-            		 				<div class="col-md-2 col-sm-2 col-xs-2">
-            		 					<h6> Webnesday</h6>
-
-            		 				</div>
-            		 				<div class="col-md-9 col-sm-9 col-xs-9">
-
-
-            		 				</div>
+            		 				
             		 			</div>
             		 			<div class="row" >
-            		 				<div class="col-md-1 col-sm-1 col-xs-1">
-            		 					<input type="checkbox" value=""/>
+            		 				
+            		 					<input type="checkbox" id="cbox5">
+                                                      <label class="dayofweek" for="cbox5">Thursday</label>
 
-            		 				</div>
-
-
-
-            		 				<div class="col-md-2 col-sm-2 col-xs-2">
-            		 					<h6> Thursday</h6>
-
-            		 				</div>
-            		 				<div class="col-md-9 col-sm-9 col-xs-9">
-
-
-            		 				</div>
+            		 				
             		 			</div>
             		 			<div class="row" >
-            		 				<div class="col-md-1 col-sm-1 col-xs-1">
-            		 					<input type="checkbox"  value=""  />
+            		 				
+            		 					<input type="checkbox" id="cbox6">
+                                                      <label class="dayofweek" for="cbox6">Friday</label>
 
-            		 				</div>
-
-
-
-            		 				<div class="col-md-2 col-sm-2 col-xs-2">
-            		 					<h6> Friday</h6>
-
-            		 				</div>
-            		 				<div class="col-md-9 col-sm-9 col-xs-9">
-
-
-            		 				</div>
+            		 				
             		 			</div>
 
 
@@ -172,41 +108,20 @@
             		 		<div class="right">
             		 		<div class="row" >
             		 				<div class="col-md-1 col-sm-1 col-xs-1">
-            		 					<input type="checkbox" value=""/>
 
             		 				</div>
-            		 				<div class="col-md-9 col-sm-9 col-xs-9">
+            		 				
+            		 					<input type="checkbox" id="cbox7">
+                                                      <label class="dayofweek2" for="cbox7">Morning</label>
 
-
-            		 				</div>
-
-
-
-            		 				<div class="col-md-6 col-sm-6 col-xs-6">
-            		 					<h6> Morning</h6>
-
-            		 				</div>
-            		 				<div class="col-md-9 col-sm-9 col-xs-9">
-
-
-            		 				</div>
+            		 				
             		 			</div>
             		 			<div class="row" >
-            		 				<div class="col-md-1 col-sm-1 col-xs-1">
-            		 					<input type="checkbox"  value="" />
+            		 				
+            		 					<input type="checkbox" id="cbox8">
+                                                      <label class="dayofweek" for="cbox8">Afternoon</label>
 
-            		 				</div>
-
-
-
-            		 				<div class="col-md-6 col-sm-6 col-xs-6">
-            		 					<h6> Afternoon</h6>
-
-            		 				</div>
-            		 				<div class="col-md-9 col-sm-9 col-xs-9">
-
-
-            		 				</div>
+            		 				
             		 			</div>
 							</div>
 
@@ -218,11 +133,13 @@
                      </div>
 
                      <div class="v-full">
-                     	<button type="button" class="nut"  >
-
-                     			Request My Appointment
-
-                     	</button>
+                     
+                        <div class="row borderTopSolid">
+                              <button type="submit" class="nut"  >
+                     		       Request My Appointment
+                              </button>
+                        </div>
+                        </form>
                      </div>
                  </div>
             </div>

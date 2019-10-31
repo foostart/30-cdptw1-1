@@ -1,21 +1,23 @@
+<?php
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Contact Form</title>
+    $url_host = 'http://'.$_SERVER['HTTP_HOST'];
+    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- Include the above in your HEAD tag -->
+    preg_match_all($pattern_uri, __DIR__, $matches);
+    $url_path = $url_host . $matches[1][0];
+    $url_path = str_replace('\\', '/', $url_path);
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-</head>
-<body>
+    if (!class_exists('lessc')) {
+        $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
+        require_once($dir_block.'/libs/lessc.inc.php');
+    }
 
+    $less = new lessc;
+    $less->compileFile('less/815.less', 'css/815.css');
 
-
+?>
+<div class="type-815">
 
 
     <div class="container">
@@ -26,7 +28,7 @@
 
                     <!--Form with header-->
 
-                    <form action="mail.php" method="post">
+                    <form action="#" method="post">
                         <div class="card border-primary rounded-0">
                             <div class="card-header p-0">
                                 <div class="bg-info text-white text-center py-2">
@@ -76,5 +78,4 @@
                 </div>
     </div>
 </div>
-</body>
-</html>
+</div>

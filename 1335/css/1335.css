@@ -43,9 +43,15 @@
   text-align: center;
 }
 .type-1335 .container form .submit {
+  color: #fff;
+  border-radius: 2%;
   background-color: orange;
-  text-align: center;
-  padding: 10px 130px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: justify;
+  padding: 5% 26%;
+  border: none;
+  margin-top: 10%;
 }
 .type-1335 .container form .content {
   padding-top: 10px;

@@ -40,7 +40,7 @@
                     <input class="form-control field_text" placeholder="Address :" name="address" id="address" title="Enter your address" type="text" required="">
                     <input class="form-control field_text" id="phone" name="phone" title="Enter your phone" placeholder="phone :" type="tel" required="">
                     <textarea class="form-control" id="Message" name="Message" title="Enter Message" placeholder="Your Problem"></textarea>
-                    <button type="submit" value="submit" class="submit">Submit Information</button>
+                    <button type="submit" class="submit">Submit Information</button>
                 </form>
             </div>
         </div>
